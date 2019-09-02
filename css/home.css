@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+#items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+    margin: auto;
+}

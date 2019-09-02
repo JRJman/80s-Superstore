@@ -4,6 +4,7 @@ html {
 }
 
 #titel {
+  margin-left: -100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -33,4 +34,3 @@ html {
     height: 300px;
     width: 300px;
 }
-

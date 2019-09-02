@@ -10,3 +10,6 @@ h1 {
 .item {
     margin: auto;
 }
+#icon{
+  line-height: 1px;
+}

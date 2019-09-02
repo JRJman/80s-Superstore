@@ -3,8 +3,9 @@ html {
     color: red;
 }
 
-h1 {
-    text-align: center;
+#titel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #items {
@@ -14,5 +15,22 @@ h1 {
 
 .item {
     margin: auto;
+    cursor: pointer;
+    height: 400px;
+}
+
+.item h4{
+    text-align: center;
+}
+
+.item img {
+    height: 200px;
+    width: 200px;
+    transition: width 1s, height 1s;
+}
+
+.item img:hover{
+    height: 300px;
+    width: 300px;
 }
 

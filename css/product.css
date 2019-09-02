@@ -1,0 +1,55 @@
+html {
+    background-color: black;
+    color: red;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+#grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#grid1 img{
+    height: 669px;
+    width: 1000px;
+}
+
+#grid2 {
+    margin: 0 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#grid2 p{
+    margin: auto;
+}
+
+#grid2 #kopen{
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 12px;
+    color: black;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+#balk{
+    background-color: gray;
+    color: black;
+    padding: 5px 0;
+    position: sticky;
+    bottom: 0;
+    margin-bottom: 0;
+}

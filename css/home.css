@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
 html {
     background-color: black;
     color: red;
+
 }
 
 #titel {
@@ -10,6 +12,7 @@ html {
 }
 
 #items {
+  font-family: 'VT323', monospace;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }

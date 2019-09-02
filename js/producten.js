@@ -1,7 +1,3 @@
-let button = document.getElementById('kopen');
-
-button.addEventListener('click', kopen);
-
-function kopen(){
-    window.location.assign("../cart.html");
+function kopen(name){
+    window.location.assign("../php/product.php?product=" + name);
 }

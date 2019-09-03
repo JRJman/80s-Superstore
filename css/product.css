@@ -62,3 +62,19 @@ h2 {
     margin-bottom: 0;
     height:1em;
 }
+
+#nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#nav #toHome {
+    cursor: pointer;
+    width: 60px;
+}
+
+#nav #toCart {
+    cursor: pointer;
+    width: 60px;
+    margin-left: 500px;
+}

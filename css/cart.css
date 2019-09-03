@@ -6,3 +6,35 @@ html {
 h2 {
     text-align: center;
 }
+
+#cart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product {
+    margin: 0 auto;
+}
+
+.product img {
+    width: 300px;
+    height: 250px;
+}
+
+#nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#nav #toHome {
+    cursor: pointer;
+    width: 60px;
+}
+
+#nav #toCart {
+    cursor: pointer;
+    color: black;
+    background-color: red;
+    width: 60px;
+    margin-left: 500px;
+}

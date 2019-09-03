@@ -25,9 +25,9 @@ function kopen(name){
 }
 
 function ToHome(){
-    window.location.assign("home.html");
+    window.location.assign("../home.html");
 }
 
 function ToCart(){
-    window.location.assign("cart.html");
+    window.location.assign("../cart.html");
 }

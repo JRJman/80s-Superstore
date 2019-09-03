@@ -1,7 +1,7 @@
 
 var id = ["huisnummer","postcode","banknummer","really"];
 let hello = 1;
-var counter = 0;
+var counter = 1;
 localStorage.clear();
 document.getElementById('a').addEventListener("keypress", test);
 function test(){
@@ -12,13 +12,13 @@ console.log(key);
     case 13:
     console.log(id[counter]);
 
-document.getElementById(id[counter]).style.property = visibility:visible;
+document.getElementById(id[counter]).style.visibility = "visible";
 
 
 counter+=1;
 if(counter>3)
 {
-  counter=0;
+  counter=3;
 }
     break;
 

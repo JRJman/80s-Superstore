@@ -1,18 +1,21 @@
-// document.getElementById('response_vield').addEventListener("keypress", );
-// function myFunction(event) {
-//   var x = event.keyCode;
-//   if (x == 27) {  // 27 is the ESC key
-//     alert ("You pressed the Escape key!");
-//   }
-// }
 
+var id = ["huisnummer",""];
 let hello = 1;
 
 localStorage.clear();
 document.getElementById('a').addEventListener("keypress", test);
 function test(){
   var key = event.keyCode;
-  if(key == 13){
-console.log(hello);
-};
+
+console.log(key);
+  switch(key){
+    case 13:
+
+    break;
+
+    case 104:
+    console.log("lol");
+    window.location.href ='home.html';
+    break;
+  }
 }

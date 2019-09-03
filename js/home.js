@@ -29,5 +29,15 @@ console.log(key);
     case 110:
     window.scroll(0,1000);
     break;
+
+    case 112:
+
+    window.scroll(0,0);
+    break;
+
+    case 99:
+    window.location.href ='cart.html';
+
+    break;
   }
 }

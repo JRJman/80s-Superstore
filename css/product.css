@@ -53,12 +53,12 @@ h2 {
 #grid2 #kopen:hover{
     background-color: #ff3333;
 }
-
 #balk{
-    background-color: gray;
-    color: black;
+    background-color: #ccc;
+    color:  #000000;
     padding: 5px 0;
     position: sticky;
     bottom: 0;
     margin-bottom: 0;
+    height: 1em;
 }

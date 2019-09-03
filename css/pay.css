@@ -4,7 +4,7 @@ html{
   background-color: black;
   color: #cc0000;
   font-family: 'VT323', monospace;
-
+font-size: 25px;
 }
 
 #balk{
@@ -14,5 +14,12 @@ html{
     position: sticky;
     bottom: 0;
     margin-bottom: 0;
-    height: 1em;
+    padding:  0px;
+}
+input{
+  opacity: 1;
+  background-color: transparent;
+  border: none;
+  /* outline: none; */
+
 }

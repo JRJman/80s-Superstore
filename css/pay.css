@@ -20,8 +20,12 @@ input{
   opacity: 1;
   background-color: transparent;
   border: none;
-  /* outline: none; */
-background-color: #ccc;
+  outline: none;
+  color: #ccc;
+  font-family: 'VT323', monospace;
+padding-bottom: 10px;
+  font-size:  17px;
+
 }
 
 #postcode{

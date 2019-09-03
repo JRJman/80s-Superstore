@@ -43,3 +43,7 @@ function ToHome(){
 function ToCart(){
     window.location.assign("cart.html");
 }
+
+function ToPayPlease(){
+    window.location.assign("pay_please.html");
+}

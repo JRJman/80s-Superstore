@@ -38,3 +38,15 @@ h2 {
     width: 60px;
     margin-left: 500px;
 }
+
+#button {
+    color: black;
+    font-size: 40px;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    border-radius: 6px;
+    position: fixed;
+    right: 50%;
+}

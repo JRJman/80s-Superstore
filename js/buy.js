@@ -1,5 +1,5 @@
 
-var id = ["huisnummer",""];
+var id = ["huisnummer","postcode"];
 let hello = 1;
 
 localStorage.clear();

@@ -6,15 +6,26 @@ html{
   font-family: 'VT323', monospace;
 font-size: 25px;
 }
+body{
+  margin:  0px;
 
-#balk{
+
+}
+#container{
+  display: grid;
+  grid-template-areas: 'form';
+}
+#balk{margin-top: 100px;
     background-color: #ccc;
     color:  #000000;
-    padding: 5px 0;
-    position: sticky;
-    bottom: 0;
-    margin-bottom: 0;
-    padding:  0px;
+    z-index: 3;
+    grid-area: balk;
+    height: 1em;
+    margin-top:660px;
+    width:100vw;
+    position: fixed;
+
+
 }
 input{
   opacity: 1;
@@ -36,4 +47,9 @@ visibility: hidden;
 }
 #really{
 visibility: hidden;
+}
+
+form{
+  grid-area: form;
+
 }

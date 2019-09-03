@@ -4,20 +4,22 @@ html {
     color: red;
 
 }
-
+body{overflow: hidden;}
 #titel {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: -100px;
+    margin-left: -140px;
 }
 
 #items {
+  margin-top: 40px;
   font-family: 'VT323', monospace;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .item {
+
     margin: auto;
     height: 400px;
 }
@@ -54,4 +56,17 @@ html {
     cursor: pointer;
     width: 60px;
     margin-left: 500px;
+}
+
+
+#balk{
+    background-color: #ccc;
+    color:  #000000;
+    z-index: 3;
+    position: fixed;
+font-size: 32px;
+    height: 1em;
+    width:100vw;
+margin-top: 17px;
+
 }
